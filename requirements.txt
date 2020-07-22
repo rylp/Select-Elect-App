@@ -39,7 +39,6 @@ Flask-SQLAlchemy==2.3.2
 Flask-WTF==0.14.2
 future==0.18.2
 httplib2==0.11.3
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 imagesize==1.2.0
 importlib-metadata @ file:///C:/ci/importlib-metadata_1593431910144/work
 intervaltree==3.0.2
