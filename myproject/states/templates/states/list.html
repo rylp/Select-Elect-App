@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h2>Welcome!!</h2>
+  <h4>List state</h4>
+
+  <ul>
+    {% for s in state_list %}
+    <li>{{s}}</li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+{% endblock %}

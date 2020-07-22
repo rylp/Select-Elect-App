@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h2>Welcome!!</h2>
+  <h4>List of Politicians</h4>
+
+  <ul>
+    {% for pol in pol_list %}
+    <li>{{pol}}</li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+{% endblock %}
